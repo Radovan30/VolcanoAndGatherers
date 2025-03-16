@@ -53,7 +53,7 @@ def main() -> None:
         (gatherer3.get_name(), gatherer3.get_total_collected()),
     ]
 
-    # Sřadíme dle celkové hodnoty (sestupně)
+    # Sřadíme dle celkové hodnoty (sestupně)0
     results.sort(key=lambda x: x[1], reverse=True)
 
     print("\n|--- KONEC BĚHU ---|")
